@@ -159,7 +159,7 @@ This is the shortest path. Just call the function and use ROI obtained above to 
 
     # crop the image
     x,y,w,h = roi
-    dst = dst[y:y+h, x:x+w]
+    dst = dst[x:x+w，y:y+h]
     cv2.imwrite('calibresult.png',dst)
 
 
